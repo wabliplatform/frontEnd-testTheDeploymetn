@@ -1,6 +1,6 @@
 # TempApi.UserApi
 
-All URIs are relative to *http://localhost:8080/v1*
+All URIs are relative to *https://wabli-laughing-invention.cyclopt.services:3000/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------

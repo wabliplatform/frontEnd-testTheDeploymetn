@@ -32,9 +32,9 @@ class ApiClient {
         /**
          * The base URL against which to resolve every API call's (relative) path.
          * @type {String}
-         * @default http://localhost:8080/v1
+         * @default https://wabli-laughing-invention.cyclopt.services:3000/v1
          */
-        this.basePath = 'http://localhost:8080/v1'.replace(/\/+$/, '');
+        this.basePath = 'https://wabli-laughing-invention.cyclopt.services:3000/v1'.replace(/\/+$/, '');
 
         /**
          * The authentication methods to be included for all API calls.
@@ -585,8 +585,8 @@ class ApiClient {
     hostSettings() {
         return [
             {
-              'url': "http://localhost:8080/v1",
-              'description': "Local server",
+              'url': "https://wabli-laughing-invention.cyclopt.services:3000/v1",
+              'description': "laughing-invention",
             }
       ];
     }

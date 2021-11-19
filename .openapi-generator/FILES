@@ -1,6 +1,5 @@
 .babelrc
 .gitignore
-.openapi-generator-ignore
 .travis.yml
 README.md
 config.js
@@ -16,6 +15,4 @@ src/ApiClient.js
 src/api/UserApi.js
 src/index.js
 src/model/User.js
-test/api/UserApi.spec.js
-test/model/User.spec.js
 webpack.config.js
